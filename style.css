@@ -1,0 +1,47 @@
+.container-1, .container-5 {
+    border: 1px solid black;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+.flex-container-1, .flex-blackjack-row-1, .flex-blackjack-row-2, .flex-blackjack-row-3 { 
+    display: flex;
+    border: 1px solid black;
+    padding: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.flex-blackjack-row-1, .flex-blackjack-row-2{
+    background: url("https://image.freepik.com/vector-gratis/fondo-mesa-poker-color-verde_47243-1068.jpg");
+    color: #ffffff;
+}
+.flex-blackjack-row-1 div{
+    border: 1px solid black;
+    padding: 10px;
+    flex: 1;
+    text-align: center;
+    height: 350px;
+}
+.flex-blackjack-row-1 img{
+    width: 25%;
+    padding: 10px;
+}
+.flex-blackjack-row-2 button{
+    border: 1px solid black;
+    padding: 10px;
+}
+.flex-blackjack-row-2 div{
+    border: 1px solid black;
+    padding: 10px;
+}
+table, th{
+    border: 1px solid black;
+    padding: 5px;
+}
+.flex-container-1 img{
+    border: 1px solid green;
+    width: 30%;
+    height: 30%;
+    padding: 10px;
+}
